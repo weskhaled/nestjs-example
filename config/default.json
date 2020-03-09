@@ -1,16 +1,16 @@
 {
   "APP_SETTINGS": {
-    "port": 8080,
+    "port": 3000,
     "socketPort": 8081,
     "bodyLimit": "50mb",
     "bodyParameterLimit": 50000
   },
   "DB_SETTINGS": {
-    "host": "localhost",
+    "host": "drona.db.elephantsql.com",
     "port": 5432,
-    "username": "postgres",
-    "password": "postgres",
-    "database": "nestjs_example"
+    "username": "pkbzlfdu",
+    "password": "0Mgl_HRLDGragmpNY0eSQ5XYldWaOWLN",
+    "database": "pkbzlfdu"
   },
   "LOGGER_SETTINGS": {
     "level": "info",
@@ -58,7 +58,7 @@
     "prefetch": 10
   },
   "REDIS_SETTINGS": {
-    "use": true,
+    "use": false,
     "host": "localhost",
     "port": 6379,
     "password": ""

@@ -10,7 +10,8 @@ export function getOrmConfig(): TypeOrmModuleOptions {
     ormConfig = {
       type: 'postgres',
       ...settings,
-      database: `${settings.database}_${process.env.NODE_ENV}`,
+      // database: `${settings.database}_${process.env.NODE_ENV}`,
+      database: `${settings.database}`,
       entities: [__dirname + '../../**/*.entity{.ts,.js}'],
       migrations: [__dirname + '/migrations/**/*{.ts,.js}'],
       migrationsRun: true,
